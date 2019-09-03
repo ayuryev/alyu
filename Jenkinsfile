@@ -1,3 +1,5 @@
+@Library('aqa-ci@jtest') _
+
 pipeline {
     agent any
     stages {
