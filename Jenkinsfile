@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Example') {
             steps { 
-                echo 'Hello AWS random is: ' + getRandomInt() 
+                echo 'Hello AWS random is: ' + getRandomInt(100) 
             }
         }
     }
